@@ -9,12 +9,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header, .hero {
+.header {
     background-color: #1f2937;
 }
 
 .wrapper {
-    width: 1300px;
+    max-width: 1300px;
     margin-inline: auto;
 }
 
