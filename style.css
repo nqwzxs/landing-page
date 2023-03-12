@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1f2937;
 }
 
@@ -163,4 +163,12 @@ img {
 
 .call button {
     border: 2px solid #f9faf8;
+}
+
+.footer .wrapper {
+    padding: 48px 16px;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 24px;
 }
