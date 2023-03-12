@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,7 +8,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header, .hero {
@@ -40,10 +42,11 @@ a, .secondary-text {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.hero .wrapper {
+.hero .wrapper,
+.quote .wrapper {
     padding: 144px 16px;
 }
 
@@ -93,7 +96,7 @@ img {
 
 .cards {
     display: flex;
-    gap: 32px;
+    gap: 48px;
     text-align: center;
     margin-bottom: 72px;
     font-size: 24px;
@@ -109,5 +112,24 @@ img {
     border-radius: 16px;
     object-fit: cover;
     margin-bottom: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .wrapper {
+    gap: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    flex-direction: column;
+}
+
+.quote-author {
+    text-align: end;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
 }
 
